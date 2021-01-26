@@ -98,15 +98,8 @@ class MovieForm extends Form {
                 {this.renderButton("Save")}
                 </div>
               </form>
-              </div>
-              <div className = "height"></div>
-              <div className = "card card-login card-hidden">
-                <div className = "card-header card-header-primary text-center">
-                  <h4>Image Form</h4>
-                </div>
-                <UploadImages />
-              </div>
-            </div>
+            </div>        
+          </div>
          );
     }
 }

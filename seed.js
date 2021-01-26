@@ -7,33 +7,33 @@ const data = [
   {
     name: "Comedy",
     movies: [
-      { title: "Airplane", numberInStock: 5, dailyRentalRate: 2 },
-      { title: "The Hangover", numberInStock: 10, dailyRentalRate: 2 },
-      { title: "Wedding Crashers", numberInStock: 15, dailyRentalRate: 2 }
+      { title: "Airplane", numberInStock: 5, dailyRentalRate: 2, movieImg: "https://github.com/Ceci007/images/blob/master/img-vidly/Airplane.jpg?raw=true" },
+      { title: "The Hangover", numberInStock: 10, dailyRentalRate: 2, movieImg: "https://github.com/Ceci007/images/blob/master/img-vidly/hangover.jpg?raw=true" },
+      { title: "Wedding Crashers", numberInStock: 15, dailyRentalRate: 2, movieImg: "https://github.com/Ceci007/images/blob/master/img-vidly/WeddingCrashers.jpg?raw=true" }
     ]
   },
   {
     name: "Action",
     movies: [
-      { title: "Die Hard", numberInStock: 5, dailyRentalRate: 2 },
-      { title: "Terminator", numberInStock: 10, dailyRentalRate: 2 },
-      { title: "The Avengers", numberInStock: 15, dailyRentalRate: 2 }
+      { title: "Die Hard", numberInStock: 5, dailyRentalRate: 2, movieImg: "https://github.com/Ceci007/images/blob/master/img-vidly/DieHard.jpg?raw=true" },
+      { title: "Terminator", numberInStock: 10, dailyRentalRate: 2, movieImg: "https://github.com/Ceci007/images/blob/master/img-vidly/Terminator.jpg?raw=true" },
+      { title: "The Avengers", numberInStock: 15, dailyRentalRate: 2, movieImg: "https://github.com/Ceci007/images/blob/master/img-vidly/TheAvengers.jpg?raw=true" }
     ]
   },
   {
     name: "Romance",
     movies: [
-      { title: "The Notebook", numberInStock: 5, dailyRentalRate: 2 },
-      { title: "When Harry Met Sally", numberInStock: 10, dailyRentalRate: 2 },
-      { title: "Pretty Woman", numberInStock: 15, dailyRentalRate: 2 }
+      { title: "The Notebook", numberInStock: 5, dailyRentalRate: 2, movieImg: "https://github.com/Ceci007/images/blob/master/img-vidly/notebook.jpg?raw=true" },
+      { title: "When Harry Met Sally", numberInStock: 10, dailyRentalRate: 2, movieImg: "https://github.com/Ceci007/images/blob/master/img-vidly/WhenHarryMetSally.jpg?raw=true" },
+      { title: "Pretty Woman", numberInStock: 15, dailyRentalRate: 2, movieImg: "https://github.com/Ceci007/images/blob/master/img-vidly/prettywoman.jpg?raw=true" }
     ]
   },
   {
     name: "Thriller",
     movies: [
-      { title: "The Sixth Sense", numberInStock: 5, dailyRentalRate: 2 },
-      { title: "Gone Girl", numberInStock: 10, dailyRentalRate: 2 },
-      { title: "The Others", numberInStock: 15, dailyRentalRate: 2 }
+      { title: "The Sixth Sense", numberInStock: 5, dailyRentalRate: 2, movieImg: "https://github.com/Ceci007/images/blob/master/img-vidly/TheSixthSense.jpg?raw=true" },
+      { title: "Gone Girl", numberInStock: 10, dailyRentalRate: 2, movieImg: "https://github.com/Ceci007/images/blob/master/img-vidly/GoneGirl.jpg?raw=true" },
+      { title: "The Others", numberInStock: 15, dailyRentalRate: 2, movieImg: "https://github.com/Ceci007/images/blob/master/img-vidly/TheOthers.jpg?raw=true" }
     ]
   }
 ];
