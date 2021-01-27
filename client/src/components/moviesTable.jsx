@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Table from './common/table';
 import Like from './common/like';
 import auth from '../services/authService';
-
+import "../css/Table.css";
 
 class MoviesTable extends Component {
     columns = [
@@ -25,7 +25,7 @@ class MoviesTable extends Component {
           (<button 
             onClick = {() => this.props.onDelete(movie)}
             className = "btn btn-danger btn-sm">
-              Delete
+              <i class="far fa-trash-alt"></i>
           </button>)
     }
 

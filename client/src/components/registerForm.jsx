@@ -3,6 +3,7 @@ import Joi from "joi-browser";
 import Form from "./common/form";
 import * as userService from "../services/userService";
 import auth from '../services/authService';
+import "../css/RegisterForm.css";
 
 class RegisterForm extends Form {
     state = { 
@@ -40,8 +41,8 @@ class RegisterForm extends Form {
 
     render() {     
         return ( 
-            <div className = "bg-image">
-                <img src = "https://github.com/Ceci007/images/blob/master/img-vidly/avengers.jpg?raw=true"
+            <div className = "background-image">
+                <img src = "https://github.com/Ceci007/images/blob/master/img-vidly/Avengers2.jpg?raw=true"
                  alt = "background"
                />
                 <div className = "container bg-overlap">

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import "../css/MovieCard.css";
 
 class MovieCard extends Component {
     render() { 
@@ -8,10 +9,16 @@ class MovieCard extends Component {
         return ( 
             <article>
                 <div className="card my-4">
-                    {movieImg !== "" ? <img src = {`${movieImg}`} 
-                    width = "920" height = "524" alt = "" className = "img-fluid card-img-top" /> :
-                    <img src = "./default-image.jpg"
-                        width = "920" height = "524" alt = "" className = "img-fluid card-img-top" />}        
+                    {movieImg !== "" ? 
+                    <div className="image-box">
+                        <img src = {`${movieImg}`} 
+                         alt = "" className = "img-fluid card-img-top" />
+                    </div>
+                    :
+                    <div className="image-box">
+                        <img src = "./default-image.jpg"
+                        alt = "" className = "img-fluid card-img-top" />
+                    </div>}        
                     <div className="card-body text-center">
                         <h5>{title}</h5>
                         <p>{genre.name}</p>

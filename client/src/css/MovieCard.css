@@ -1,0 +1,10 @@
+.image-box {
+  width: 350px;
+  height: 200px;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

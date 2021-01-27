@@ -64,13 +64,13 @@ button.navbar-toggler:focus { outline: 1px none !important; }
 .black {
   color: #212529 !important;
   text-align: justify !important;
-  padding: 20px !important;
+  padding: 10px !important;
 }
 
 .black:hover {
   text-decoration: none !important;
   background-color: #EDEEF2;
-  padding: 20px;
+  padding: 10px;
   border-radius: 7px;
 }
 
@@ -83,16 +83,6 @@ i
 .list-group-item.active {
   background-color: #9c27b0 !important;
   border: 1px solid #9c27b0 !important;
-}
-
-.bg-image {
- position: absolute;
- margin-top: 65px;
- top: 0;
- left: 0;
- width: 100%;
- height: 100vh;
- z-index: 2;
 }
 
 .bg-image img {

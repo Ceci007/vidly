@@ -3,7 +3,6 @@ import Joi from "joi-browser";
 import Form from "./common/form";
 import { getMovie, saveMovie } from "../services/movieService";
 import { getGenres } from "../services/genreService";
-import UploadImages from './uploadImages';
 
 class MovieForm extends Form {
     state = {  
@@ -12,7 +11,7 @@ class MovieForm extends Form {
             genreId: "",
             numberInStock: "",
             dailyRentalRate: "",
-            movieImg: ""
+            movieImg: null
           },
           genres: [],
           errors: {}
@@ -77,11 +76,10 @@ class MovieForm extends Form {
         await saveMovie(this.state.data);
        
         this.props.history.push("/movies");
-    }
+    } 
+
 
     render() { 
-        let { movieImg } = this.state.data;
-
         return ( 
             <div className = "container">
               <div className = "height"></div>
@@ -94,6 +92,7 @@ class MovieForm extends Form {
                 {this.renderInput("title", "Title")}
                 {this.renderSelect("genreId", "Genre", this.state.genres)}
                 {this.renderInput("numberInStock", "Number in Stock", "number")}
+                {this.renderInput("movieImg", "Insert image link")}
                 {this.renderInput("dailyRentalRate", "Rate")}
                 {this.renderButton("Save")}
                 </div>

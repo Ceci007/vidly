@@ -3,6 +3,7 @@ import { Redirect } from 'react-router-dom';
 import Joi from 'joi-browser';
 import Form from './common/form';
 import auth from '../services/authService';
+import "../css/RegisterForm.css";
 
 class LoginForm extends Form {
     state = {
@@ -34,8 +35,8 @@ class LoginForm extends Form {
         if(auth.getCurrentUser()) return <Redirect to="/" />;
 
         return ( 
-            <div className = "bg-image">
-                 <img src = "https://github.com/Ceci007/images/blob/master/img-vidly/avengers.jpg?raw=true"
+            <div className = "background-image">
+                 <img src = "https://github.com/Ceci007/images/blob/master/img-vidly/Avengers2.jpg?raw=true"
                  alt = "background"
                />
                <div className = "container bg-overlap">

@@ -13,7 +13,6 @@ import Logout from './components/logout';
 import RegisterForm from './components/registerForm';
 import ProtectedRoute from './components/common/protectedRoute';
 import auth from './services/authService';
-import './App.css';
 import './assets/css/template.css';
 import 'react-toastify/dist/ReactToastify.css';
 

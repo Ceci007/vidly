@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.1",
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.6.0",
     "font-awesome": "^4.7.0",
     "joi-browser": "^13.4.0",
     "jwt-decode": "^2.2.0",
@@ -12,6 +12,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-images-upload": "^1.2.8",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^3.0.1",
     "react-toastify": "^4.1.0",
