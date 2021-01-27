@@ -4,6 +4,7 @@ import { ToastContainer } from 'react-toastify';
 import Movies from './components/movies';
 import MovieForm from './components/movieForm';
 import Customers from './components/customers';
+import Profile from './components/profile';
 import Posters from './components/posters';
 import NotFound from './components/notFound';
 import NavBar from './components/navBar';
@@ -26,7 +27,7 @@ class App extends Component {
   }
 
   render() {
-    const { user } = this.state;
+  const { user } = this.state;
 
   return (
     <React.Fragment>
@@ -45,6 +46,7 @@ class App extends Component {
           />
           <Route path = "/rentals" component = {Posters} />
           <Route path = "/customers" component = {Customers} />
+          <Route path = "/profile" component = {Profile} user={user} />
           <Route path = "/not-found" component = {NotFound} />
           <Redirect from = "/" exact to = "/movies" />
           <Redirect to = "not-found" />
