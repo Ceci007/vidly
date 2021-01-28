@@ -8,7 +8,7 @@ This project is the backend and frontend of vidly, an imaginary video rental app
 
 ## Live Demo 
 
-[vidly (movie rentals)](https://movie-rentals.netlify.app/movies)
+[vidly (movie rentals)](https://movie-rentals.netlify.app)
 
 ## Setup
 
