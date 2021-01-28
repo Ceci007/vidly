@@ -2,6 +2,10 @@
 
 This project is the backend and frontend of vidly, an imaginary video rental app.
 
+![back-end screenshot](./back-end-screenshot.png)
+
+![front-end screenshot](./front-end-screenshot.png)
+
 ## Setup
 
 Make sure to follow all these steps exactly as explained below. Do not miss any steps or you won't be able to run this application.
