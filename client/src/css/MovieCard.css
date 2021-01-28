@@ -1,10 +1,27 @@
 .image-box {
   width: 350px;
   height: 200px;
+  overflow: hidden;
 }
 
 .image-box img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-top-right-radius: 15px !important;
+  border-top-left-radius: 15px !important;
+}
+
+@media only screen and (max-width: 25em) /* 400px */ {
+  .image-box {
+    width: 100% !important;
+    height: 170px;
+    overflow: hidden !important;
+  }
+
+  .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover !important;
+  }
 }

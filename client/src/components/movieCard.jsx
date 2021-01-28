@@ -12,12 +12,12 @@ class MovieCard extends Component {
                     {movieImg !== "" ? 
                     <div className="image-box">
                         <img src = {`${movieImg}`} 
-                         alt = "" className = "img-fluid card-img-top" />
+                         alt = "" className = "card-img-top" />
                     </div>
                     :
                     <div className="image-box">
                         <img src = "./default-image.jpg"
-                        alt = "" className = "img-fluid card-img-top" />
+                        alt = "" className = "card-img-top" />
                     </div>}        
                     <div className="card-body text-center">
                         <h5>{title}</h5>

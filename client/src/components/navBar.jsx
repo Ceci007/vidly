@@ -41,31 +41,31 @@ class NavBar extends Component {
                 <div className={`${classOne}`} id="navbarResponsive">
                     <ul className = "navbar-nav">
                     <li className = "nav-item mx-auto">
-                        <NavLink className = "nav-link" to = "/movies">Movies</NavLink>
+                        <NavLink className = "nav-link" to = "/movies" onClick={() => this.setState({ collapsed: !this.state.collapsed })}>Movies</NavLink>
                     </li>
                     <li className = "nav-item mx-auto">
-                        <NavLink className = "nav-link" to = "/customers">Customers</NavLink>
+                        <NavLink className = "nav-link" to = "/customers" onClick={() => this.setState({ collapsed: !this.state.collapsed })}>Customers</NavLink>
                     </li>
                     <li className = "nav-item mx-auto">
-                        <NavLink className = "nav-link" to = "/rentals">Posters</NavLink>
+                        <NavLink className = "nav-link" to = "/rentals" onClick={() => this.setState({ collapsed: !this.state.collapsed })}>Posters</NavLink>
                     </li>
                     {!user && 
                         <React.Fragment>
                             <li className = "nav-item mx-auto">
-                                <NavLink className = "nav-link" to = "/login">Login</NavLink>
+                                <NavLink className = "nav-link" to = "/login" onClick={() => this.setState({ collapsed: !this.state.collapsed })}>Login</NavLink>
                             </li>
                             <li className = "nav-item mx-auto">
-                                <NavLink className = "nav-link" to = "/register">Register</NavLink>
+                                <NavLink className = "nav-link" to = "/register" onClick={() => this.setState({ collapsed: !this.state.collapsed })}>Register</NavLink>
                             </li>
                         </React.Fragment>
                     }
                     {user && 
                         <React.Fragment>
                             <li className = "nav-item mx-auto">
-                                <NavLink className = "nav-link" to = "/profile">{user.name}</NavLink>
+                                <NavLink className = "nav-link" to = "/profile" onClick={() => this.setState({ collapsed: !this.state.collapsed })}>{user.name}</NavLink>
                             </li>
                             <li className = "nav-item mx-auto">
-                                <NavLink className = "nav-link" to = "/logout">Logout</NavLink>
+                                <NavLink className = "nav-link" to = "/logout" onClick={() => this.setState({ collapsed: !this.state.collapsed })}>Logout</NavLink>
                             </li>
                         </React.Fragment>
                     }

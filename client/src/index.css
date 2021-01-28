@@ -49,6 +49,19 @@ button.navbar-toggler:focus { outline: 1px none !important; }
 .nav-item:hover {
   background-color: #EDEEF2;
   border-radius: 7px;
+} 
+
+@media only screen and (max-width: 48em) /* 768px */ {
+  .nav-item:first-child {
+    margin-top: 20px;
+  }
+
+  .nav-item {
+    background-color: #EDEEF2;
+    width: 300px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+  } 
 }
 
 .height {
@@ -115,11 +128,7 @@ i
   width: 100% !important;
   border-radius: 15px !important;
   position: relative !important;
-}
-
-.card img {
-  border-top-right-radius: 15px !important;
-  border-top-left-radius: 15px !important;
+  border: none !important;
 }
 
 .card-body h5 {
