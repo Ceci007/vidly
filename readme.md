@@ -1,6 +1,6 @@
 ## Introduction
 
-This project is the backend and frontend of vidly, an imaginary video rental application.
+This project is the backend and frontend of vidly, an imaginary video rent application.
 
 ![back-end screenshot](./back-end-screenshot.png)
 
