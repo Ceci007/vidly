@@ -28,7 +28,7 @@
     "lodash": "^4.17.15",
     "moment": "^2.20.1",
     "mongoose": "^5.6.10",
-    "mpath": "^0.6.0",
+    "mpath": "^0.8.4",
     "react-globally": "^1.1.0",
     "winston": "^2.4.0",
     "winston-mongodb": "^3.0.0"
