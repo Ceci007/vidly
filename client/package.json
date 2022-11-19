@@ -14,7 +14,7 @@
     "react-dom": "^16.9.0",
     "react-images-upload": "^1.2.8",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "react-toastify": "^4.1.0",
     "reactstrap": "^8.0.1"
   },
