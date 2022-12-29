@@ -16,7 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^3.0.8",
-    "config": "^1.29.4",
+    "config": "^3.3.8",
     "cors": "^2.8.4",
     "express": "^4.16.2",
     "express-async-errors": "^2.1.0",
